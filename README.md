@@ -2,7 +2,7 @@
 
 <strong> Multi Label Knowledge Distillation of Compound Expression using Multi-Task Learning</strong> 
 
-![Proposed framework](images/mtkd_frmaework.png)
+![Proposed framework](images/mtkd_framework.png)
 
 <b>Figure:</b> The complete architecture of our proposed MTKD approach which shows the Multi Label Knowledge Distillation from the teacher to student network. In this approach we adopt the Multi-task Knowledge Distilla-
 tion, which distills feature-level, logit-level, and embedding-level knowledge from
