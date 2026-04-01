@@ -1,25 +1,49 @@
 # CFER-MTKD
+### Multi-Label Knowledge Distillation of Compound Expression using Multi-Task Learning
 
-<strong> Multi Label Knowledge Distillation of Compound Expression using Multi-Task Learning</strong> 
+---
 
-![Proposed framework](images/mtkd_framework.png)
+## Overview
 
-<b>Figure:</b> The complete architecture of our proposed MTKD approach which shows the Multi Label Knowledge Distillation from the teacher to student network. In this approach we adopt the Multi-task Knowledge Distilla-
-tion, which distills feature-level, logit-level, and embedding-level knowledge from
-the teacher
-<br> </br>
+![Proposed Framework](images/mtkd_framework.png)
 
-<b>Confusion plots</b> of RAF-CE dataset:
-![Confusion plots](images/ConfusionPlots.png)
-<br> </br>
+**Figure:** The complete architecture of our proposed MTKD approach, showing Multi-Label Knowledge Distillation from the teacher to student network. This approach adopts Multi-Task Knowledge Distillation, which distills **feature-level**, **logit-level**, and **embedding-level** knowledge from the teacher.
 
-<b>Sample Images</b> of RAF-CE dataset:
+---
+
+## Getting Started
+
+### Requirements
+```bash
+pip install -r requirements.txt
+```
+
+### Run
+```bash
+python3 main.py --cfg_file configs/rafml/rafml_resnet101_to_resnet34_l2d.py --data_root RAF-ML
+```
+
+---
+
+## Results
+
+### Confusion Plots — RAF-CE Dataset
+![Confusion Plots](images/ConfusionPlots.png)
+
+### Sample Images — RAF-CE Dataset
 ![Sample Images](images/Sample.png)
-<br> </br>
 
-<b>GradCAM visualization</b> of dataset:
-![GradCAM visualization](images/gradcam.png)
-<br> </br>
-<b>Contact:</b>shivanshsharma5102003@gmail.com
-<br> </br>
+### GradCAM Visualization
+![GradCAM Visualization](images/gradcam.png)
 
+---
+
+## Acknowledgement
+
+We dedicate this work to **Bhagawan Sri Sathya Sai Baba** and express our sincere gratitude to our guide **Dr. Darshan Gera** for his invaluable support and guidance throughout this work.
+
+---
+
+## Contact
+
+📧 [shivanshsharma5102003@gmail.com](mailto:shivanshsharma5102003@gmail.com)
